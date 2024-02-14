@@ -187,6 +187,20 @@ body {
   order: 1;
 }
 
+/*Card*/
+
+.card-title{
+  font-size: 13px;
+  font-weight: 200;
+}
+
+.card-text{
+  font-size: 13px;
+  font-weight: 600;
+  padding: 10px 0px;
+}
+
+
 /*footer*/
 
 footer {

@@ -957,3 +957,7 @@ hr {
     margin-top: 0px;
   }
 }
+
+tr, td{
+  font-weight: 600;
+}

@@ -961,3 +961,13 @@ hr {
 tr, td{
   font-weight: 600;
 }
+
+.linkuri-contact{
+  text-decoration: none; 
+  color:#000000;
+  transition: 200ms ease-in;
+}
+
+.linkuri-contact:hover{
+  opacity: 0.7;
+}

@@ -561,7 +561,7 @@ hr {
 .custom-card-item .custom-arrow {
   display: flex;
   align-items: center;
-  height: 40px;
+  height: 60px;
   width: 40px;
   color: #000;
   border-radius: 50%;
@@ -912,5 +912,29 @@ hr {
   backdrop-filter: blur(6.1px);
   -webkit-backdrop-filter: blur(6.1px);
   border: 1px solid rgba(255, 255, 255, 0.22);
+
+}
+
+
+@media only screen and (max-width: 1500px) {
+  .custom-title{
+    font-size: 14px;
+  }
+  
+  .custom-value{
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 1130px){
+  #pagina-urmatoare{
+    width: 99%;
+  }
+}
+
+@media only  screen  and (max-width: 1200px){
+  #email{
+    font-size: 13px;
+  }
 
 }

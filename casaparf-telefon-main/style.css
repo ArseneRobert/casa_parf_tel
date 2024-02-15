@@ -414,8 +414,7 @@ footer {
   /* Stiluri pentru fiecare element din lista personalizată */
   display: flex;
   justify-content: space-between;
-
-  margin-top: 36px;
+  margin-top: 40px;
   font-family: "Source Sans Pro";
 }
 
@@ -915,7 +914,6 @@ hr {
 
 }
 
-
 @media only screen and (max-width: 1500px) {
   .custom-title{
     font-size: 14px;
@@ -933,8 +931,29 @@ hr {
 }
 
 @media only  screen  and (max-width: 1200px){
-  #email{
+  #office-email{
     font-size: 13px;
   }
 
+}
+
+@media only  screen  and (max-width: 962px){
+  #office-email{
+    font-size: 16px;
+  }
+
+}
+
+.butoane{
+  margin-top: 20%;
+}
+
+@media only screen and (max-width: 1300px){
+  .custom-button{
+    margin-top: 20px;
+  }
+
+  .butoane{
+    margin-top: 0px;
+  }
 }
